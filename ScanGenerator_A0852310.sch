@@ -27,11 +27,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Stereoscan120-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -42,13 +43,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1500 1700 0    60   UnSpc ~ 0
-PL3?
+PL38
 Text HLabel 1500 1900 0    60   UnSpc ~ 0
 PL37
 Text HLabel 1500 3200 0    60   UnSpc ~ 0
 PL72
 Text HLabel 1500 3800 0    60   UnSpc ~ 0
-PL2?
+PL28
 Text HLabel 1500 4000 0    60   UnSpc ~ 0
 PL27
 Text HLabel 1500 3000 0    60   UnSpc ~ 0
@@ -83,4 +84,6 @@ Text HLabel 6500 1000 1    60   UnSpc ~ 0
 PL26
 Text HLabel 4000 1000 1    60   UnSpc ~ 0
 PL16
+Text HLabel 1500 4400 0    60   Input ~ 0
+PL20
 $EndSCHEMATC

@@ -27,11 +27,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Stereoscan120-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -63,4 +64,28 @@ Wire Wire Line
 	1400 5200 2300 5200
 Text Label 2300 5200 2    60   ~ 0
 YScanInput
+Text HLabel 10300 2000 2    60   Input ~ 0
+PL56
+Text HLabel 10300 2200 2    60   Input ~ 0
+PL57
+Text HLabel 10300 3100 2    60   Input ~ 0
+PL58
+Text HLabel 10300 3300 2    60   Input ~ 0
+PL59
+Wire Wire Line
+	10300 2000 9400 2000
+Wire Wire Line
+	10300 2200 9400 2200
+Wire Wire Line
+	10300 3100 9400 3100
+Wire Wire Line
+	10300 3300 9400 3300
+Text Label 9400 2000 0    60   ~ 0
+LineFeed
+Text Label 9400 2200 0    60   ~ 0
+LineReturn
+Text Label 9400 3100 0    60   ~ 0
+FrameFeed
+Text Label 9400 3300 0    60   ~ 0
+FrameReturn
 $EndSCHEMATC
