@@ -318,4 +318,8 @@ Wire Wire Line
 	7450 3150 7450 3250
 Wire Wire Line
 	7450 3250 7100 3250
+Wire Bus Line
+	2800 6950 2200 6950
+Text Label 2700 6950 2    60   ~ 0
+Power-part79
 $EndSCHEMATC
