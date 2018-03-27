@@ -51,7 +51,7 @@ XScanInput
 Text HLabel 1400 3200 0    60   UnSpc ~ 0
 PL50
 Text HLabel 1400 3900 0    60   UnSpc ~ 0
-PL4??
+PL46
 Text HLabel 1400 4300 0    60   UnSpc ~ 0
 PL103
 Text HLabel 1400 5200 0    60   UnSpc ~ 0
@@ -88,4 +88,10 @@ Text Label 9400 3100 0    60   ~ 0
 FrameFeed
 Text Label 9400 3300 0    60   ~ 0
 FrameReturn
+Wire Bus Line
+	1400 4300 1900 4300
+Wire Bus Line
+	1900 4300 1900 3900
+Wire Bus Line
+	1900 3900 1400 3900
 $EndSCHEMATC
