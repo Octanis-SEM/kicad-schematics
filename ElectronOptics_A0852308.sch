@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 17
+Sheet 17 17
 Title ""
 Date ""
 Rev ""
@@ -42,14 +42,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1500 6100 3    60   UnSpc ~ 0
-DayPower_Nr3
-Text HLabel 2300 6100 3    60   UnSpc ~ 0
-SKT4
-Text HLabel 3000 6100 3    60   UnSpc ~ 0
-SKT104
-Text HLabel 3700 6100 3    60   UnSpc ~ 0
-SKT5
-Text HLabel 9500 3300 2    60   UnSpc ~ 0
-SKT89
+Text HLabel 1700 1500 0    60   Input ~ 0
+PL51
+Text HLabel 1700 1900 0    60   Input ~ 0
+PL45
+Text HLabel 9200 1500 2    60   Input ~ 0
+PL49
+Text HLabel 9200 1950 2    60   Input ~ 0
+PL15
+Text HLabel 9200 2350 2    60   Input ~ 0
+PL80
+Text HLabel 1700 2200 0    60   Input ~ 0
+PL81
+Text HLabel 9200 2750 2    60   Input ~ 0
+PL197
+Text HLabel 1700 2000 0    60   Input ~ 0
+PL46
+Text HLabel 9200 1700 2    60   Input ~ 0
+PL52
 $EndSCHEMATC
