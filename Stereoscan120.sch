@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -387,4 +387,14 @@ Wire Bus Line
 	13650 2150 14150 2150
 Text Label 13750 2150 0    60   ~ 0
 Power-343
+$Sheet
+S 2000 8250 1900 350 
+U 5B0A26A0
+F0 "Collector Decoupling A3852363.sch" 60
+F1 "CollectorDecoupling_A3852363.sch" 60
+F2 "Scintillator" I L 2000 8350 60 
+F3 "Grid" I L 2000 8500 60 
+F4 "Cable134" I R 3900 8350 60 
+F5 "400V_GunSupply" I R 3900 8500 60 
+$EndSheet
 $EndSCHEMATC
