@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -212,6 +212,7 @@ F7 "Amplification" I R 1800 4500 60
 F8 "VideoProcessorControls" I R 1800 4800 60 
 F9 "KVSelection" I R 1800 5050 60 
 F10 "ElectronOptics" I R 1800 5200 60 
+F11 "BeamModulation" I R 1800 5400 60 
 $EndSheet
 Text Label 1900 4500 0    60   ~ 0
 PL50
@@ -499,4 +500,46 @@ Wire Bus Line
 	8400 4850 8000 4850
 Text Label 8200 4850 2    60   ~ 0
 PL46
+$Sheet
+S 8300 6650 1600 950 
+U 5B10EE60
+F0 "Beam Modulation A1852380" 60
+F1 "BeamModulation_A1852380.sch" 60
+F2 "PL51" I L 8300 6950 60 
+F3 "PL92" I L 8300 6800 60 
+F4 "SK36In" I L 8300 7150 60 
+F5 "SK36TiltIn" I L 8300 7300 60 
+F6 "SK36Out" I R 9900 7150 60 
+F7 "SK36TiltOut" I R 9900 7300 60 
+F8 "PL81" I R 9900 6950 60 
+F9 "PL136" I L 8300 7450 60 
+$EndSheet
+Wire Bus Line
+	10400 1800 10700 1800
+Text Label 10450 1800 0    60   ~ 0
+Power-92
+Wire Bus Line
+	8300 6800 8000 6800
+Text Label 8200 6800 2    60   ~ 0
+Power-92
+Wire Bus Line
+	8300 6950 8000 6950
+Text Label 8100 6950 2    60   ~ 0
+PL51
+Wire Bus Line
+	1800 5400 2200 5400
+Text Label 1900 5400 0    60   ~ 0
+PL136
+Wire Bus Line
+	8300 7450 8000 7450
+Text Label 8150 7450 2    60   ~ 0
+PL136
+Wire Bus Line
+	8400 4200 8000 4200
+Text Label 8200 4200 2    60   ~ 0
+PL81
+Wire Bus Line
+	9900 6950 10250 6950
+Text Label 10100 6950 0    60   ~ 0
+PL81
 $EndSCHEMATC

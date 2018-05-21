@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 19
+Sheet 19 19
 Title ""
 Date ""
 Rev ""
@@ -42,12 +42,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2050 2400 0    60   Input ~ 0
-Scintillator
-Text HLabel 2050 2850 0    60   Input ~ 0
-Grid
-Text HLabel 5950 2350 2    60   Input ~ 0
-Cable134
-Text HLabel 5900 2800 2    60   Input ~ 0
-400V_GunSupply
+Text HLabel 1950 1550 0    60   Input ~ 0
+PL51
+Text HLabel 1950 1250 0    60   Input ~ 0
+PL92
+Text HLabel 1950 2400 0    60   Input ~ 0
+SK36In
+Text HLabel 1950 2700 0    60   Input ~ 0
+SK36TiltIn
+Text HLabel 9200 2450 2    60   Input ~ 0
+SK36Out
+Text HLabel 9200 2750 2    60   Input ~ 0
+SK36TiltOut
+Text HLabel 9200 2100 2    60   Input ~ 0
+PL81
+Text HLabel 1950 1950 0    60   Input ~ 0
+PL136
 $EndSCHEMATC

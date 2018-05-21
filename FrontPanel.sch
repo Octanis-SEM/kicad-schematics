@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 18
+Sheet 12 19
 Title ""
 Date ""
 Rev ""
@@ -60,4 +60,6 @@ Text HLabel 9550 3450 2    60   Input ~ 0
 KVSelection
 Text HLabel 9550 3650 2    60   Input ~ 0
 ElectronOptics
+Text HLabel 9550 3900 2    60   Input ~ 0
+BeamModulation
 $EndSCHEMATC
