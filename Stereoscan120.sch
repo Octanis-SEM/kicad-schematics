@@ -209,6 +209,7 @@ F4 "SignalLevel" I R 1800 3800 60
 F5 "AcquisitionMode" I R 1800 4000 60 
 F6 "PhotoStart" I R 1800 4200 60 
 F7 "Amplification" I R 1800 4500 60 
+F8 "VideoProcessorControls" I R 1800 4800 60 
 $EndSheet
 Text Label 1900 4500 0    60   ~ 0
 PL50
@@ -423,4 +424,12 @@ Text Label 5250 7050 2    60   ~ 0
 SK53
 Text Label 8100 6100 2    60   ~ 0
 SK53
+Wire Bus Line
+	1800 4800 2200 4800
+Text Label 1900 4800 0    60   ~ 0
+PL124
+Wire Bus Line
+	8300 5650 8000 5650
+Text Label 8150 5650 2    60   ~ 0
+PL124
 $EndSCHEMATC

@@ -54,4 +54,6 @@ Text HLabel 9550 2200 2    60   Input ~ 0
 PhotoStart
 Text HLabel 9550 2750 2    60   Input ~ 0
 Amplification
+Text HLabel 9550 3050 2    60   Input ~ 0
+VideoProcessorControls
 $EndSCHEMATC
