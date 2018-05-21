@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -397,4 +397,30 @@ F3 "Grid" I L 2000 8500 60
 F4 "Cable134" I R 3900 8350 60 
 F5 "400V_GunSupply" I R 3900 8500 60 
 $EndSheet
+$Sheet
+S 8300 5500 1550 750 
+U 5B0B04E3
+F0 "Video Processor A0852576" 60
+F1 "VideoProcessor_A0852576.sch" 60
+F2 "124" I L 8300 5650 60 
+F3 "37" I L 8300 5800 60 
+F4 "113" I L 8300 5950 60 
+F5 "53" I L 8300 6100 60 
+$EndSheet
+Wire Bus Line
+	2800 3150 2500 3150
+Text Label 2550 3150 2    60   ~ 0
+PL37
+Wire Bus Line
+	8300 5800 8000 5800
+Text Label 8100 5800 2    60   ~ 0
+PL37
+Wire Bus Line
+	8300 6100 8000 6100
+Wire Bus Line
+	5400 7050 5100 7050
+Text Label 5250 7050 2    60   ~ 0
+SK53
+Text Label 8100 6100 2    60   ~ 0
+SK53
 $EndSCHEMATC
