@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 17
+Sheet 1 18
 Title ""
 Date ""
 Rev ""
@@ -487,4 +487,16 @@ PL46
 Wire Bus Line
 	10000 4200 10300 4200
 NoConn ~ 10300 4200
+$Sheet
+S 8400 4750 1600 200 
+U 5B100F42
+F0 "EO PROM Board A1853990" 60
+F1 "EOPROMBoard_A1853990.sch" 60
+F2 "SKT1" I R 10000 4850 60 
+F3 "PL46" I L 8400 4850 60 
+$EndSheet
+Wire Bus Line
+	8400 4850 8000 4850
+Text Label 8200 4850 2    60   ~ 0
+PL46
 $EndSCHEMATC

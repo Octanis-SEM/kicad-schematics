@@ -32,7 +32,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 18
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -42,22 +42,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9550 1000 2    60   Input ~ 0
-ScanRotation
-Text HLabel 9550 1600 2    60   Input ~ 0
-AutoLevel
-Text HLabel 9550 1800 2    60   Input ~ 0
-SignalLevel
-Text HLabel 9550 2000 2    60   Input ~ 0
-AcquisitionMode
-Text HLabel 9550 2200 2    60   Input ~ 0
-PhotoStart
-Text HLabel 9550 2750 2    60   Input ~ 0
-Amplification
-Text HLabel 9550 3050 2    60   Input ~ 0
-VideoProcessorControls
-Text HLabel 9550 3450 2    60   Input ~ 0
-KVSelection
-Text HLabel 9550 3650 2    60   Input ~ 0
-ElectronOptics
+Text HLabel 2050 2100 0    60   Input ~ 0
+SKT1
+Text HLabel 2050 1900 0    60   Input ~ 0
+PL46
 $EndSCHEMATC
