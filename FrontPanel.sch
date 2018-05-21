@@ -56,4 +56,8 @@ Text HLabel 9550 2750 2    60   Input ~ 0
 Amplification
 Text HLabel 9550 3050 2    60   Input ~ 0
 VideoProcessorControls
+Text HLabel 9550 3450 2    60   Input ~ 0
+KVSelection
+Text HLabel 9550 3650 2    60   Input ~ 0
+ElectronOptics
 $EndSCHEMATC

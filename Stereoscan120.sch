@@ -210,6 +210,8 @@ F5 "AcquisitionMode" I R 1800 4000 60
 F6 "PhotoStart" I R 1800 4200 60 
 F7 "Amplification" I R 1800 4500 60 
 F8 "VideoProcessorControls" I R 1800 4800 60 
+F9 "KVSelection" I R 1800 5050 60 
+F10 "ElectronOptics" I R 1800 5200 60 
 $EndSheet
 Text Label 1900 4500 0    60   ~ 0
 PL50
@@ -433,7 +435,7 @@ Wire Bus Line
 Text Label 8150 5650 2    60   ~ 0
 PL124
 $Sheet
-S 8400 3400 1600 950 
+S 8400 3400 1600 1150
 U 5B0CE4F6
 F0 "Electron Optics A0852308" 60
 F1 "ElectronOptics_A0852308.sch" 0
@@ -446,5 +448,43 @@ F7 "PL81" I L 8400 4200 60
 F8 "PL197" I R 10000 4000 60 
 F9 "PL46" I L 8400 4050 60 
 F10 "PL52" I R 10000 3700 60 
+F11 "PL47" I R 10000 4200 60 
+F12 "PL198A" I R 10000 4350 60 
+F13 "PL198B" I R 10000 4450 60 
 $EndSheet
+Wire Bus Line
+	8400 3550 8000 3550
+Text Label 8200 3550 2    60   ~ 0
+PL51
+Wire Bus Line
+	7100 3650 7500 3650
+Text Label 7350 3650 0    60   ~ 0
+PL51
+Wire Bus Line
+	10400 1700 10700 1700
+Text Label 10450 1700 0    60   ~ 0
+Power-15
+Wire Bus Line
+	8400 3700 8000 3700
+Text Label 8300 3700 2    60   ~ 0
+Power-15
+Wire Bus Line
+	1800 5050 2200 5050
+Wire Bus Line
+	1800 5200 2200 5200
+Text Label 1900 5050 0    60   ~ 0
+PL46
+Text Label 1900 5200 0    60   ~ 0
+PL45
+Wire Bus Line
+	8400 3900 8000 3900
+Wire Bus Line
+	8400 4050 8000 4050
+Text Label 8200 3900 2    60   ~ 0
+PL45
+Text Label 8200 4050 2    60   ~ 0
+PL46
+Wire Bus Line
+	10000 4200 10300 4200
+NoConn ~ 10300 4200
 $EndSCHEMATC

@@ -60,4 +60,10 @@ Text HLabel 1700 2000 0    60   Input ~ 0
 PL46
 Text HLabel 9200 1700 2    60   Input ~ 0
 PL52
+Text HLabel 9200 3150 2    60   Input ~ 0
+PL47
+Text HLabel 9200 3500 2    60   Input ~ 0
+PL198A
+Text HLabel 9200 3650 2    60   Input ~ 0
+PL198B
 $EndSCHEMATC
