@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:transistors
 LIBS:conn
+LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
@@ -29,11 +30,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:relays
 LIBS:Stereoscan120-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 12 25
 Title ""
 Date ""
 Rev ""
